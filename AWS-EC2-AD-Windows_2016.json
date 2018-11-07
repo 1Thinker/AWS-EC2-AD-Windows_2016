@@ -1,5 +1,5 @@
 {
-  "AWSTemplateFormatVersion" : "2018-10-15",
+  "AWSTemplateFormatVersion" : "2010-09-09",
 
   "Description" : "This template creates a single server installation of Active Directory. Domain Administrator password will be the one retrieved from the instance. For adding members to the domain, ensure that they are launched in domain member security group created by this template and then configure them to use this instance's private IP as the DNS server. **WARNING** This template creates Amazon EC2 Windows instance and related resources. You will be billed for the AWS resources used if you create a stack from this template.",
 
